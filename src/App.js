@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import logo from "./assets/img/security.svg";
+
+import Login from "./pages/Login";
 
 function App() {
   return (
     // <h1>Hello World !</h1>
-    <img src={logo} alt="Login" />
+    <Login />
   );
 }
 

@@ -2,6 +2,7 @@
 
 - Por padrão é uma função que retorna um conteudo html;
 - Em todo componente é necessario importar o React ( import React from "react"; );
+- Para exportar coloca (export default) na frente de: function nomeComponent()
 
 # Importações de imagens
 

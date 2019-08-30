@@ -1,5 +1,6 @@
 import React from "react";
+import logo from "../assets/img/security.svg";
 
-function Login() {
-  return;
+export default function Login() {
+  return <img src={logo} alt="Login" />;
 }
