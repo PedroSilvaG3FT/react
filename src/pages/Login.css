@@ -4,3 +4,10 @@
   justify-content: center; /* Alinha item horizontalmente ao centro */
   align-items: center; /* Alinha item verticalmente ao centro */
 }
+
+.login-container form {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column; /* Vai deixar os elementos um a baixo do outro */
+}

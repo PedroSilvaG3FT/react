@@ -5,7 +5,11 @@ import "./Login.css";
 export default function Login() {
   return (
     <div className="login-container">
-      <img src={logo} alt="Login" />;
+      <form>
+        <img src={logo} alt="Login" />
+        <input placeholder="Digite seu usuário do GitHub " />
+        <button type="submit ">Enviar</button>
+      </form>
     </div>
   );
 }
