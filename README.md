@@ -10,3 +10,10 @@
 
 -Tudo parte do JS, imagens podem ser importadas pelo proprio JS Tambem como no arquivo App.js;
 -Para vizualizar a IMAGEM na tela usa-se src={} e não src="";
+
+###Rotas
+
+- Adicionar a biblioteca atraves do yarn add react-router-dom
+- Criar novo arquivo com nome: routes. js
+- Importar : BrowserRouter e Route no arquivo
+- Exportar, pois não deixa de ser um componente
