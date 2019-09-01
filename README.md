@@ -18,3 +18,8 @@
 - Importar : BrowserRouter e Route no arquivo
 - Exportar, pois não deixa de ser um componente
 - Importar as Paginas criadas
+- Importar routes no arquivo App.js
+
+### Pegar info de campos
+
+-Conceito de estados : Toda e qualquer informação que o componente vai manipular
