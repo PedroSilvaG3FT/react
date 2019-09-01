@@ -25,10 +25,13 @@
 
 -Conceito de estados : Toda e qualquer informação que o componente vai manipular
 
+### Chamar uma API
+
+- Adicionar o axios
+
 ### Geral
 
-# O React pode se basear em 3 conceitos
-
+    # O React pode se basear em 3 conceitos
     - Componentes
     - Estado - useState
     - Propriedades - Ex: history
