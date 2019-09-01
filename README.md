@@ -17,3 +17,4 @@
 - Criar novo arquivo com nome: routes. js
 - Importar : BrowserRouter e Route no arquivo
 - Exportar, pois não deixa de ser um componente
+- Importar as Paginas criadas
