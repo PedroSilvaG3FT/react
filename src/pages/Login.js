@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import logo from "../assets/img/security.svg";
 import "./Login.css";
 
-export default function Login() {
+export default function Login({ history }) {
   const [userName, setUsername] = useState("");
 
   function handleSubmit(e) {
     e.preventDefault(); //Previne redirecionamento para outra pagina
 
     console.log(userName);
+
+    history.push("/main");
   }
 
   return (
