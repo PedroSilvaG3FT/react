@@ -6,10 +6,14 @@ import api from "../services/api";
 export default function Login({ history }) {
   const [userName, setUsername] = useState("");
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault(); //Previne redirecionamento para outra pagina
 
-    console.log(userName);
+    const response = await api.post("/devs", {
+      userName
+    });
+
+    console.log(response);
 
     history.push("/main");
   }
