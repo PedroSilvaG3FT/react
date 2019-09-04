@@ -15,7 +15,9 @@ export default function Login({ history }) {
 
     console.log(response);
 
-    history.push("/main");
+    const { _id } = response.data;
+
+    history.push(`/dev/${_id}`);
   }
 
   return (
