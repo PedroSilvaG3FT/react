@@ -20,6 +20,8 @@
 - Importar as Paginas criadas
 - Importar routes no arquivo App.js
 - history é a propriedade padrao que é recebida em um componente e resposavel pela navegação
+- Para capturar um parametro enviado pela rota usa-se o match
+- Para usar o parametro recebido : match.params.'NomeDoParametro'
 
 ### Pegar info de campos (ESTADO)
 
